@@ -45,4 +45,16 @@ Three main user: **Customer**, **Fraud Analyst** , **Developer**
 **MVP Consist of : API + Rules Engine + Database + Basic Dashboard**
 
 
+# Phase 4: What maybe out of Scope
 
+## Out of Scope
+
+| Out of Scope item | Reasons |
+| ----------------- | ------- |
+| Real bank data | Privacy issue but we can use Synthetically generated finanical Transaction|
+| Real payment processing | Not required for this project may add it later on|
+| Real card blocking | Not required for this project my add it later when deploying to AWS using Amazon SNS/Pinpoing|
+| Deep learining model | Not needed for MVP but will be using it later|
+| Graph neural network | Advance version later |
+| real user authentication | Can add later |
+| Full case mangement Workflow | Later feature |
