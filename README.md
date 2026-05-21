@@ -19,8 +19,10 @@ Financial institutions process thousands of card transactions every day. Some tr
 
 Three main user: **Customer**, **Fraud Analyst** , **Developer**
 - Cutomer : Transaction should be **protected** from fraud
-- Fraud Analyst : Need to see supicious transactions and understand why they were flagged
-- Developer : Manage rules, logs, data, and syste performance
+- Fraud Analyst : Needs to see supicious transactions and understand why they were flagged
+- Developer : Manage rules, logs, data, and system performance
 
 **Since this is an MVP, I will mostly focus on the Fraud Analyst and Developer parts**
+
+# Phase 3 : Define MVP scope
 
