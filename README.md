@@ -26,3 +26,23 @@ Three main user: **Customer**, **Fraud Analyst** , **Developer**
 
 # Phase 3 : Define MVP scope
 
+## MVP Features
+
+| Feature | Description | Priority |
+| ------- | ----------- | -------- |
+| Submit transaction | API receives transaction data | Must-have|
+| Rules-based fraud detection | System applies fraud rules | Must-have|
+| Risk Score | Tansaction gets score from 0 - 100 | Must-have|
+|Fraud explanation| System explains why transaction was flagged| Must-have|
+|Store transaction| Save transaction and fraud result| Must-have|
+|View alerts| Dashboard shows suspicious transactions | Must-have|
+|View all transactions| Dashboard table for transaction history| Should-have|
+|Basic metrics| Fraud rate, flagged count, total volume| Should-have|
+|ML model| Predict fraud using trained model| Later|
+|Graph Fraud Detection| Detect relationships between users/devices/cards| Later|
+|AWS deployment| Deploy backend and database to AWS | Later|
+
+**MVP Consist of : API + Rules Engine + Database + Basic Dashboard**
+
+
+
