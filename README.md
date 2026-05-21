@@ -58,3 +58,60 @@ Three main user: **Customer**, **Fraud Analyst** , **Developer**
 | Graph neural network | Advance version later |
 | real user authentication | Can add later |
 | Full case mangement Workflow | Later feature |
+
+# Phase 5: Functional Requirements (FD)
+
+## Transaction Submission
+
+- [ ] The system shall allow a transaction to be submitted through an API.
+- [ ] The system shall require each transaction to include:
+    - [ ] transaction ID
+    - [ ] user ID
+    - [ ] card ID
+    - [ ] amount
+    - [ ] merchant
+    - [ ] merchant category
+    - [ ] location
+    - [ ] timestamp
+    - [ ] device ID
+    - [ ] IP address
+- [ ] The system shall reject transactions with missing required fields.
+- [ ] The system shall reject transactions with invalid amounts, such as negative values.
+- [ ] Fraud Rule Evaluation
+- [ ] The system shall evaluate each transaction using predefined fraud rules.
+- [ ] The system shall increase the risk score when the transaction amount is unusually high.
+- [ ] The system shall increase the risk score when multiple transactions happen within a short time window.
+- [ ] The system shall increase the risk score when the transaction location is unusual for the user.
+- [ ] The system shall increase the risk score when the device ID is new or suspicious.
+- [ ] The system shall increase the risk score when the merchant category is high risk.
+
+
+# Risk Scoring
+
+- [ ] The system shall assign each transaction a risk score from 0 to 100.
+- [ ] The system shall classify transactions as:
+    - [ ] APPROVED
+    - [ ] REVIEW
+    - [ ] FLAGGED
+- [ ] The system shall classify transactions with risk score below 40 as APPROVED.
+- [ ] The system shall classify transactions with risk score from 40 to 69 as REVIEW.
+- [ ] The system shall classify transactions with risk score 70 or above as FLAGGED.
+
+## Explanation
+
+- [ ] The system shall return the reasons why a transaction was flagged.
+- [ ] The system shall display each triggered rule in the transaction result.
+- [ ] The system shall allow a fraud analyst to see the risk score and explanations.
+
+## Storage
+
+- [ ] The system shall store every transaction in the database.
+- [ ] The system shall store the fraud decision for every transaction.
+- [ ] The system shall store the triggered fraud rules for audit purposes.
+
+## Dashboard
+
+- [ ] The system shall display total transactions processed.
+- [ ] The system shall display the number of flagged transactions.
+- [ ] The system shall display suspicious transactions in a table.
+- [ ] The system shall allow users to view transaction details.
