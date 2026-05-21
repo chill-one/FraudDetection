@@ -1,4 +1,4 @@
-# Phase 1
+# Phase 1 : Define the problem
 
 ## Problem Statement
 
@@ -15,5 +15,12 @@ Financial institutions process thousands of card transactions every day. Some tr
     - shows suspicious activity on a dashboard.
 
 
-# Phase 2
+# Phase 2 : Define the users
+
+Three main user: **Customer**, **Fraud Analyst** , **Developer**
+- Cutomer : Transaction should be **protected** from fraud
+- Fraud Analyst : Need to see supicious transactions and understand why they were flagged
+- Developer : Manage rules, logs, data, and syste performance
+
+**Since this is an MVP, I will mostly focus on the Fraud Analyst and Developer parts**
 
